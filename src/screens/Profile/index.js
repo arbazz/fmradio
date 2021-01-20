@@ -13,7 +13,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-export default function Profile() {
+export default function Profile({ navigation }) {
 
     return (
         <>
@@ -73,11 +73,11 @@ export default function Profile() {
                 </View>
                 <View style={[styles.row, styles.textContianer]}>
                     <TextInput placeholder="Leave a message" style={styles.textinp} />
-                    <Ionicons name="send-outline" style={styles.send}/>
+                    <Ionicons name="send-outline" style={styles.send} />
                 </View>
                 <View style={{ height: 20 }} />
             </ScrollView>
-            <BottomTab />
+            <BottomTab navigation={navigation} />
         </>
     )
 };
@@ -193,11 +193,11 @@ const styles = StyleSheet.create({
         paddingLeft: 10
     },
     send: {
-       backgroundColor: primaryColor,
-       color: 'white',
-       padding: 10,
-       borderRadius: 180,
-       fontSize: 20,
-       marginRight: 20
+        backgroundColor: primaryColor,
+        color: 'white',
+        padding: 10,
+        borderRadius: 180,
+        fontSize: 20,
+        marginRight: 20
     }
 })

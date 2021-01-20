@@ -8,17 +8,17 @@ import {
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import { primaryColor } from '../../theme/config';
 
-export default function BottomTab({showLiveButton, showCurve}) {
+export default function BottomTab({ showLiveButton, showCurve, navigation }) {
 
     return (
         <View style={[styles.cotniaer, showCurve && styles.curve]}>
-            <AntDesign name="home" style={styles.icon} />
+            <AntDesign name="home" style={styles.icon} onPress={() => navigation.navigate("Feed")} />
             {!showLiveButton ? <View style={styles.row}>
-                <AntDesign name="user" style={[styles.icon, {color: primaryColor}]} />
+                <AntDesign name="user" style={[styles.icon, { color: primaryColor }]} />
                 <Text style={styles.user}>Users</Text>
-            </View>: 
+            </View> :
                 <Image style={styles.imageOn}
-                 source={require('../../../assets/fmlogo.png')}/>
+                    source={require('../../../assets/fmlogo.png')} />
             }
             <AntDesign name="setting" style={styles.icon} />
         </View>
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         color: primaryColor,
         fontWeight: 'bold',
         fontSize: 20,
-        marginTop:3
+        marginTop: 3
     },
     imageOn: {
         width: 60,

@@ -30,12 +30,12 @@ export default function HomeTab({navigation}) {
                     source={require('../../../assets/Group3.png')}
                 />
             </View>
-            <View style={styles.back}>
+            <TouchableOpacity style={styles.back} onPress={() => navigation.navigate("Live")}>
                 <Image
                     style={styles.image}
                     source={require('../../../assets/Group4.png')}
                 />
-            </View>
+            </TouchableOpacity>
         </View>
     )
 };

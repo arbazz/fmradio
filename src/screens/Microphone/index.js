@@ -10,7 +10,7 @@ import {
 import { BottomTab } from '../../components';
 import { primaryColor } from '../../theme/config';
 
-export default function Microphone() {
+export default function Microphone({navigation}) {
 
     return (
         <>
@@ -54,7 +54,7 @@ export default function Microphone() {
                 </View>
                 <View style={{ height: 30 }} />
             </ScrollView>
-            <BottomTab showLiveButton={true} showCurve={true}/>
+            <BottomTab showLiveButton={true} showCurve={true} navigation={navigation}/>
         </>
     )
 };
