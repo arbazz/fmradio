@@ -6,13 +6,15 @@ import {
 } from 'react-native';
 
 
-export default function CustomTextInput({placeholderText}) {
+export default function CustomTextInput({placeholderText, onChangeText, value}) {
 
     return (
         <View>
             <TextInput
                 placeholder={placeholderText ? placeholderText : "TEXT HERE"}
                 style={styles.text}
+                onChangeText={e=>onChangeText(e)}
+                value={value}
             />
         </View>
     )

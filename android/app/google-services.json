@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "538566777081",
+    "firebase_url": "https://test-d9b42.firebaseio.com",
+    "project_id": "test-d9b42",
+    "storage_bucket": "test-d9b42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538566777081:android:d340712c952596c7dcaa28",
+        "android_client_info": {
+          "package_name": "com.exicube.grabcab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538566777081-h35c18dkqv2jmc5eli9d60uqe511iku1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo-wffAItAVUh_nD0pZKGlgh4dylcrk-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538566777081-h35c18dkqv2jmc5eli9d60uqe511iku1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "538566777081-5udhcq5iu4hrh1udq6qb8j6nj7q1bcdn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exicube.grabcab"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538566777081:android:04f4276b44c04ddedcaa28",
+        "android_client_info": {
+          "package_name": "com.fmpradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538566777081-h35c18dkqv2jmc5eli9d60uqe511iku1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo-wffAItAVUh_nD0pZKGlgh4dylcrk-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538566777081-h35c18dkqv2jmc5eli9d60uqe511iku1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "538566777081-5udhcq5iu4hrh1udq6qb8j6nj7q1bcdn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exicube.grabcab"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
